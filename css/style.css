@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+.comment {
+  font-size: 2em;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pics {
+  display: flex;
+}
+
+.pics2 {
+  margin-left: 20px;
+}
+
+body {
+   background: #fff0de;
+}
+
+.flexs {
+  display: flex;
+  margin-left: 20px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.container{
+  margin: 0px 5px;
+}
+
+
+form{
+  background: #ffffff;
+  padding: 15px 0px 15px 30px;
+  height: 520px;
+  width: 320px;
+  font-size: 24px;
+}
+
+input[type="submit"] {
+  padding: 10px 50px;
+  background: #7f6666;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+input[type="text"] {
+  font-size: 18px;
+}
+
+select {
+  font-size: 1em;
+}

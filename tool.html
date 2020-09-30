@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!--<meta name="viewport" content="width=device-width,initial-scale=1">-->
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/special.css">
+		<title>テンプレート</title>
+	</head>
+	<body>
+		<header>
+			<div>
+				<h1>パワーナンバー判定</h1> <!--後で変更-->
+			</div>
+			<div class="hamburger" id="open_nav">
+                <img src="images/hamburger.png" alt="">
+            </div>
+		</header>
+		<main>
+			<div class="pics">
+				<img class="pics2" src="images/table.png" alt="">
+				<img class="pics2" src="images/powernumber.jpg" alt="">
+			</div>
+			<div class="flexs">
+				<div class="container">
+					<h2>M-Ratio</h2>
+						<form action="#" id="mLatio">
+							<dl>
+								<dt>スタック</dt>
+								<input type="text" name="stuck">
+								<dt>スモールブラインド</dt>
+								<input type="text" name="sb">
+								<dt>ビッグブラインド</dt>
+								<input type="text" name="bb">
+								<dt>アンティ</dt>
+								<input type="text" name="ante">
+								<dt>人数</dt>
+								<input type="text" name="people">
+							</dl>
+							<input type="submit" value="計算">
+							<p id="output1"></p>
+						</form>
+				</div><!-- /.container -->			
+				<div class="container">
+					<h2>Power-Number</h2>
+						<form action="#" id="powernumber">    
+							<dl>
+								<dt>ハンド</dt>
+								<select name="hand1">
+									<option value="1">A</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+									<option value="10">T</option>
+									<option value="11">J</option>
+									<option value="12">Q</option>
+									<option value="13">K</option>
+								</select>
+								<select name="hand2">
+									<option value="1">A</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+									<option value="10">T</option>
+									<option value="11">J</option>
+									<option value="12">Q</option>
+									<option value="13">K</option>
+								</select></br>
+								<input type="radio" name="suit" value="1">Suit
+								<input type="radio" name="suit" value="0">Off
+							</dl>
+							<input type="submit" value="表示">
+							<p id="output2"></p>
+						</form>
+				</div><!-- /.container -->
+				<div class="container">
+					<h2>All-in</h2>
+						<form action="#" id="allin">    
+							<dl>
+								<dt>自分より後ろの順番の人数</dt>
+								<select name="restPeople">
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+								</select></br>
+							</dl>
+							<input type="submit" value="判定">
+							<p id="output3"></p>
+						</form>
+				</div><!-- /.container -->
+			</div>
+		</main>
+		<footer>
+		</footer>
+		<nav id="nav">  <!--class="show"-->
+			<div>MENU</div>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">Tool</a></li>
+			</ul>
+		</nav>	
+		<script src="js/script.js"></script>
+		<script src="js/special.js"></script>
+	</body>
+</html>
